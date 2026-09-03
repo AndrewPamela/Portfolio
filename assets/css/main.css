@@ -4687,3 +4687,10 @@ input, select, textarea {
 		}
 
 	}
+.project-description p {
+font-style: normal !important;
+}
+
+.project-description strong {
+font-style: normal !important;
+}
