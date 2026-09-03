@@ -1,4 +1,4 @@
-# Pamela Andrew — Data Analytics Portfolio
+# Andrew Pamela — Data Analytics Portfolio
 
 Welcome to my data analytics portfolio.
 
