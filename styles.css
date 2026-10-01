@@ -995,7 +995,7 @@ img {
 
 .strip-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   align-items: center;
 }
 
@@ -1096,6 +1096,7 @@ img {
 .section-intro-block p {
   color: var(--text-soft);
   margin-bottom: 16px;
+  text-align: justify;
 }
 
 .about-stats {
@@ -1461,10 +1462,25 @@ img {
   margin-top: 10px;
 }
 
-.timeline-content p {
+.timeline-content p,
+.timeline-content li {
   color: var(--text-soft);
   line-height: 1.7;
   font-size: 14px;
+}
+
+.timeline-content ul {
+  margin: 16px 0 0;
+  padding-left: 20px;
+}
+
+.timeline-content li {
+  padding-left: 4px;
+  margin-bottom: 8px;
+}
+
+.timeline-content li:last-child {
+  margin-bottom: 0;
 }
 
 
